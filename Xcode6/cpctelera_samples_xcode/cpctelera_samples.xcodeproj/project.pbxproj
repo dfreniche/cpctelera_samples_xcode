@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992E8AA71AD6F3760076FC2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 992E8AA61AD6F3760076FC2F /* README.md */; };
 		99E300B11AD570990027D514 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 99E300B01AD570990027D514 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -106,7 +107,7 @@
 		992E89F11AD6C7610076FC2F /* putString.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putString.xcodeproj; path = samples/putString.xcodeproj; sourceTree = SOURCE_ROOT; };
 		992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = readKeyboard.xcodeproj; path = samples/readKeyboard.xcodeproj; sourceTree = SOURCE_ROOT; };
 		992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = setPalette.xcodeproj; path = samples/setPalette.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E8A7C1AD6EF370076FC2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		992E8AA61AD6F3760076FC2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		99E300AD1AD570990027D514 /* cpctelera_samples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpctelera_samples; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E300B01AD570990027D514 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,7 +214,7 @@
 		99E300A41AD570990027D514 = {
 			isa = PBXGroup;
 			children = (
-				992E8A7C1AD6EF370076FC2F /* README.md */,
+				992E8AA61AD6F3760076FC2F /* README.md */,
 				9905CBF21AD641F10044F51D /* samples */,
 				99E300AF1AD570990027D514 /* cpctelera_samples */,
 				99E300AE1AD570990027D514 /* Products */,
@@ -344,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992E8AA71AD6F3760076FC2F /* README.md in Sources */,
 				99E300B11AD570990027D514 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

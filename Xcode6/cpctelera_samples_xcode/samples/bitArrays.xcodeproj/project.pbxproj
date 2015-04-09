@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		992E89421AD6C5AD0076FC2F /* bitArrays.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = bitArrays.cdt; path = ../../../../cpctelera/examples/bitArrays/bitArrays.cdt; sourceTree = "<group>"; };
+		99E300E91AD572C20027D514 /* bitArrays.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = bitArrays.dsk; path = ../../../../cpctelera/examples/bitArrays/bitArrays.dsk; sourceTree = "<group>"; };
+		99E300EA1AD572C20027D514 /* cfg */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cfg; path = ../../../../cpctelera/examples/bitArrays/cfg; sourceTree = "<group>"; };
+		99E300EB1AD572C20027D514 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../cpctelera/examples/bitArrays/Makefile; sourceTree = "<group>"; };
+		99E300EC1AD572C20027D514 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../../cpctelera/examples/bitArrays/src; sourceTree = "<group>"; };
+		99E300ED1AD572C20027D514 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = obj; path = ../../../../cpctelera/examples/bitArrays/obj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		99E300E21AD572C20027D514 = {
+			isa = PBXGroup;
+			children = (
+				992E89421AD6C5AD0076FC2F /* bitArrays.cdt */,
+				99E300E91AD572C20027D514 /* bitArrays.dsk */,
+				99E300EA1AD572C20027D514 /* cfg */,
+				99E300EB1AD572C20027D514 /* Makefile */,
+				99E300EC1AD572C20027D514 /* src */,
+				99E300ED1AD572C20027D514 /* obj */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		99E300E71AD572C20027D514 /* bitArrays */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 99E300EE1AD572C20027D514 /* Build configuration list for PBXLegacyTarget "bitArrays" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = /Users/dfreniche/BTSync/Programming/Amstrad/cpctelera/examples/bitArrays;
+			dependencies = (
+			);
+			name = bitArrays;
+			passBuildSettingsInEnvironment = 1;
+			productName = bitArrays;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		99E300E31AD572C20027D514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 99E300E61AD572C20027D514 /* Build configuration list for PBXProject "bitArrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99E300E21AD572C20027D514;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E300E71AD572C20027D514 /* bitArrays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		99E300E41AD572C20027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99E300E51AD572C20027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99E300EF1AD572C20027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = bitArrays;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99E300F01AD572C20027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = bitArrays;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E300E61AD572C20027D514 /* Build configuration list for PBXProject "bitArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E300E41AD572C20027D514 /* Debug */,
+				99E300E51AD572C20027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E300EE1AD572C20027D514 /* Build configuration list for PBXLegacyTarget "bitArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E300EF1AD572C20027D514 /* Debug */,
+				99E300F01AD572C20027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E300E31AD572C20027D514 /* Project object */;
+}

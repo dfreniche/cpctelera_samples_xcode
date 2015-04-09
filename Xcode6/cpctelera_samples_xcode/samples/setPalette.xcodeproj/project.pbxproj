@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		992E8A4B1AD6C7CD0076FC2F /* build_config.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_config.mk; sourceTree = "<group>"; };
+		992E8A4D1AD6C7CD0076FC2F /* main.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = main.asm; sourceTree = "<group>"; };
+		992E8A4E1AD6C7CD0076FC2F /* main.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.lst; sourceTree = "<group>"; };
+		992E8A4F1AD6C7CD0076FC2F /* main.rel */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rel; sourceTree = "<group>"; };
+		992E8A501AD6C7CD0076FC2F /* main.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rst; sourceTree = "<group>"; };
+		992E8A511AD6C7CD0076FC2F /* main.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.sym; sourceTree = "<group>"; };
+		992E8A521AD6C7CD0076FC2F /* setPalette.bin.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = setPalette.bin.bin; sourceTree = "<group>"; };
+		992E8A531AD6C7CD0076FC2F /* setPalette.bin.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = setPalette.bin.log; sourceTree = "<group>"; };
+		992E8A541AD6C7CD0076FC2F /* setPalette.ihx */ = {isa = PBXFileReference; lastKnownFileType = text; path = setPalette.ihx; sourceTree = "<group>"; };
+		992E8A551AD6C7CD0076FC2F /* setPalette.lk */ = {isa = PBXFileReference; lastKnownFileType = text; path = setPalette.lk; sourceTree = "<group>"; };
+		992E8A561AD6C7CD0076FC2F /* setPalette.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = setPalette.map; sourceTree = "<group>"; };
+		992E8A571AD6C7CD0076FC2F /* setPalette.noi */ = {isa = PBXFileReference; lastKnownFileType = text; path = setPalette.noi; sourceTree = "<group>"; };
+		992E8A591AD6C7CD0076FC2F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		992E8A5A1AD6C7CD0076FC2F /* newton_sprite.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = newton_sprite.def; sourceTree = "<group>"; };
+		992E8A5B1AD6C7CD0076FC2F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../cpctelera/examples/setPalette/Makefile; sourceTree = "<group>"; };
+		992E8A5C1AD6C7CD0076FC2F /* setPalette.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = setPalette.cdt; path = ../../../../cpctelera/examples/setPalette/setPalette.cdt; sourceTree = "<group>"; };
+		992E8A5D1AD6C7CD0076FC2F /* setPalette.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = setPalette.dsk; path = ../../../../cpctelera/examples/setPalette/setPalette.dsk; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		992E8A331AD6C7B00076FC2F = {
+			isa = PBXGroup;
+			children = (
+				992E8A4A1AD6C7CD0076FC2F /* cfg */,
+				992E8A4C1AD6C7CD0076FC2F /* obj */,
+				992E8A581AD6C7CD0076FC2F /* src */,
+				992E8A5B1AD6C7CD0076FC2F /* Makefile */,
+				992E8A5C1AD6C7CD0076FC2F /* setPalette.cdt */,
+				992E8A5D1AD6C7CD0076FC2F /* setPalette.dsk */,
+			);
+			sourceTree = "<group>";
+		};
+		992E8A4A1AD6C7CD0076FC2F /* cfg */ = {
+			isa = PBXGroup;
+			children = (
+				992E8A4B1AD6C7CD0076FC2F /* build_config.mk */,
+			);
+			name = cfg;
+			path = ../../../../cpctelera/examples/setPalette/cfg;
+			sourceTree = "<group>";
+		};
+		992E8A4C1AD6C7CD0076FC2F /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				992E8A4D1AD6C7CD0076FC2F /* main.asm */,
+				992E8A4E1AD6C7CD0076FC2F /* main.lst */,
+				992E8A4F1AD6C7CD0076FC2F /* main.rel */,
+				992E8A501AD6C7CD0076FC2F /* main.rst */,
+				992E8A511AD6C7CD0076FC2F /* main.sym */,
+				992E8A521AD6C7CD0076FC2F /* setPalette.bin.bin */,
+				992E8A531AD6C7CD0076FC2F /* setPalette.bin.log */,
+				992E8A541AD6C7CD0076FC2F /* setPalette.ihx */,
+				992E8A551AD6C7CD0076FC2F /* setPalette.lk */,
+				992E8A561AD6C7CD0076FC2F /* setPalette.map */,
+				992E8A571AD6C7CD0076FC2F /* setPalette.noi */,
+			);
+			name = obj;
+			path = ../../../../cpctelera/examples/setPalette/obj;
+			sourceTree = "<group>";
+		};
+		992E8A581AD6C7CD0076FC2F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				992E8A591AD6C7CD0076FC2F /* main.c */,
+				992E8A5A1AD6C7CD0076FC2F /* newton_sprite.def */,
+			);
+			name = src;
+			path = ../../../../cpctelera/examples/setPalette/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		992E8A381AD6C7B00076FC2F /* setPalette */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 992E8A3F1AD6C7B00076FC2F /* Build configuration list for PBXLegacyTarget "setPalette" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = /Users/dfreniche/BTSync/Programming/Amstrad/cpctelera/examples/setPalette;
+			dependencies = (
+			);
+			name = setPalette;
+			passBuildSettingsInEnvironment = 1;
+			productName = setPalette;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		992E8A341AD6C7B00076FC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 992E8A371AD6C7B00076FC2F /* Build configuration list for PBXProject "setPalette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 992E8A331AD6C7B00076FC2F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992E8A381AD6C7B00076FC2F /* setPalette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		992E8A351AD6C7B00076FC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		992E8A361AD6C7B00076FC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		992E8A401AD6C7B00076FC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = setPalette;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		992E8A411AD6C7B00076FC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = setPalette;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992E8A371AD6C7B00076FC2F /* Build configuration list for PBXProject "setPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992E8A351AD6C7B00076FC2F /* Debug */,
+				992E8A361AD6C7B00076FC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992E8A3F1AD6C7B00076FC2F /* Build configuration list for PBXLegacyTarget "setPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992E8A401AD6C7B00076FC2F /* Debug */,
+				992E8A411AD6C7B00076FC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992E8A341AD6C7B00076FC2F /* Project object */;
+}

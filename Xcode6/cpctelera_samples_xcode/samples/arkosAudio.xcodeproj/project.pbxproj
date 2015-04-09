@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		99E300BD1AD571090027D514 /* arkosAudio.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = arkosAudio.cdt; path = ../../../../cpctelera/examples/arkosAudio/arkosAudio.cdt; sourceTree = "<group>"; };
+		99E300BE1AD571090027D514 /* arkosAudio.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = arkosAudio.dsk; path = ../../../../cpctelera/examples/arkosAudio/arkosAudio.dsk; sourceTree = "<group>"; };
+		99E300BF1AD571090027D514 /* cfg */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cfg; path = ../../../../cpctelera/examples/arkosAudio/cfg; sourceTree = "<group>"; };
+		99E300C01AD571090027D514 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../cpctelera/examples/arkosAudio/Makefile; sourceTree = "<group>"; };
+		99E300C11AD571090027D514 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = obj; path = ../../../../cpctelera/examples/arkosAudio/obj; sourceTree = "<group>"; };
+		99E300C21AD571090027D514 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../../cpctelera/examples/arkosAudio/src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		99E300B71AD571090027D514 = {
+			isa = PBXGroup;
+			children = (
+				99E300BD1AD571090027D514 /* arkosAudio.cdt */,
+				99E300BE1AD571090027D514 /* arkosAudio.dsk */,
+				99E300BF1AD571090027D514 /* cfg */,
+				99E300C01AD571090027D514 /* Makefile */,
+				99E300C11AD571090027D514 /* obj */,
+				99E300C21AD571090027D514 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		99E300BC1AD571090027D514 /* arkosAudio */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 99E300C31AD571090027D514 /* Build configuration list for PBXLegacyTarget "arkosAudio" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = /Users/dfreniche/BTSync/Programming/Amstrad/cpctelera/examples/arkosAudio;
+			dependencies = (
+			);
+			name = arkosAudio;
+			passBuildSettingsInEnvironment = 1;
+			productName = arkosAudio;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		99E300B81AD571090027D514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 99E300BB1AD571090027D514 /* Build configuration list for PBXProject "arkosAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99E300B71AD571090027D514;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E300BC1AD571090027D514 /* arkosAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		99E300B91AD571090027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99E300BA1AD571090027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99E300C41AD571090027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = arkosAudio;
+			};
+			name = Debug;
+		};
+		99E300C51AD571090027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = arkosAudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E300BB1AD571090027D514 /* Build configuration list for PBXProject "arkosAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E300B91AD571090027D514 /* Debug */,
+				99E300BA1AD571090027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E300C31AD571090027D514 /* Build configuration list for PBXLegacyTarget "arkosAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E300C41AD571090027D514 /* Debug */,
+				99E300C51AD571090027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E300B81AD571090027D514 /* Project object */;
+}

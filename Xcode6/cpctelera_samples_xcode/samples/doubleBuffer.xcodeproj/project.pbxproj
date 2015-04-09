@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		992E894A1AD6C5C60076FC2F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../cpctelera/examples/doubleBuffer/Makefile; sourceTree = "<group>"; };
+		992E894C1AD6C5D60076FC2F /* build_config.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_config.mk; sourceTree = "<group>"; };
+		992E894E1AD6C5D60076FC2F /* doubleBuffer.bin.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = doubleBuffer.bin.bin; sourceTree = "<group>"; };
+		992E894F1AD6C5D60076FC2F /* doubleBuffer.bin.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = doubleBuffer.bin.log; sourceTree = "<group>"; };
+		992E89501AD6C5D60076FC2F /* doubleBuffer.ihx */ = {isa = PBXFileReference; lastKnownFileType = text; path = doubleBuffer.ihx; sourceTree = "<group>"; };
+		992E89511AD6C5D60076FC2F /* doubleBuffer.lk */ = {isa = PBXFileReference; lastKnownFileType = text; path = doubleBuffer.lk; sourceTree = "<group>"; };
+		992E89521AD6C5D60076FC2F /* doubleBuffer.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = doubleBuffer.map; sourceTree = "<group>"; };
+		992E89531AD6C5D60076FC2F /* doubleBuffer.noi */ = {isa = PBXFileReference; lastKnownFileType = text; path = doubleBuffer.noi; sourceTree = "<group>"; };
+		992E89541AD6C5D60076FC2F /* main.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = main.asm; sourceTree = "<group>"; };
+		992E89551AD6C5D60076FC2F /* main.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.lst; sourceTree = "<group>"; };
+		992E89561AD6C5D60076FC2F /* main.rel */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rel; sourceTree = "<group>"; };
+		992E89571AD6C5D60076FC2F /* main.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rst; sourceTree = "<group>"; };
+		992E89581AD6C5D60076FC2F /* main.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.sym; sourceTree = "<group>"; };
+		992E895A1AD6C5D60076FC2F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		992E895B1AD6C5D60076FC2F /* newton_sprite.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = newton_sprite.def; sourceTree = "<group>"; };
+		992E895C1AD6C5D60076FC2F /* doubleBuffer.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = doubleBuffer.cdt; path = ../../../../cpctelera/examples/doubleBuffer/doubleBuffer.cdt; sourceTree = "<group>"; };
+		992E895D1AD6C5D60076FC2F /* doubleBuffer.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = doubleBuffer.dsk; path = ../../../../cpctelera/examples/doubleBuffer/doubleBuffer.dsk; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		992E894B1AD6C5D60076FC2F /* cfg */ = {
+			isa = PBXGroup;
+			children = (
+				992E894C1AD6C5D60076FC2F /* build_config.mk */,
+			);
+			name = cfg;
+			path = ../../../../cpctelera/examples/doubleBuffer/cfg;
+			sourceTree = "<group>";
+		};
+		992E894D1AD6C5D60076FC2F /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				992E894E1AD6C5D60076FC2F /* doubleBuffer.bin.bin */,
+				992E894F1AD6C5D60076FC2F /* doubleBuffer.bin.log */,
+				992E89501AD6C5D60076FC2F /* doubleBuffer.ihx */,
+				992E89511AD6C5D60076FC2F /* doubleBuffer.lk */,
+				992E89521AD6C5D60076FC2F /* doubleBuffer.map */,
+				992E89531AD6C5D60076FC2F /* doubleBuffer.noi */,
+				992E89541AD6C5D60076FC2F /* main.asm */,
+				992E89551AD6C5D60076FC2F /* main.lst */,
+				992E89561AD6C5D60076FC2F /* main.rel */,
+				992E89571AD6C5D60076FC2F /* main.rst */,
+				992E89581AD6C5D60076FC2F /* main.sym */,
+			);
+			name = obj;
+			path = ../../../../cpctelera/examples/doubleBuffer/obj;
+			sourceTree = "<group>";
+		};
+		992E89591AD6C5D60076FC2F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				992E895A1AD6C5D60076FC2F /* main.c */,
+				992E895B1AD6C5D60076FC2F /* newton_sprite.def */,
+			);
+			name = src;
+			path = ../../../../cpctelera/examples/doubleBuffer/src;
+			sourceTree = "<group>";
+		};
+		99E300F51AD572D40027D514 = {
+			isa = PBXGroup;
+			children = (
+				992E894B1AD6C5D60076FC2F /* cfg */,
+				992E894D1AD6C5D60076FC2F /* obj */,
+				992E89591AD6C5D60076FC2F /* src */,
+				992E895C1AD6C5D60076FC2F /* doubleBuffer.cdt */,
+				992E895D1AD6C5D60076FC2F /* doubleBuffer.dsk */,
+				992E894A1AD6C5C60076FC2F /* Makefile */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		99E300FA1AD572D40027D514 /* doubleBuffer */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 99E301011AD572D40027D514 /* Build configuration list for PBXLegacyTarget "doubleBuffer" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = /Users/dfreniche/BTSync/Programming/Amstrad/cpctelera/examples/doubleBuffer;
+			dependencies = (
+			);
+			name = doubleBuffer;
+			passBuildSettingsInEnvironment = 1;
+			productName = doubleBuffer;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		99E300F61AD572D40027D514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 99E300F91AD572D40027D514 /* Build configuration list for PBXProject "doubleBuffer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99E300F51AD572D40027D514;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E300FA1AD572D40027D514 /* doubleBuffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		99E300F71AD572D40027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99E300F81AD572D40027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99E301021AD572D40027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = doubleBuffer;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99E301031AD572D40027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = doubleBuffer;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E300F91AD572D40027D514 /* Build configuration list for PBXProject "doubleBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E300F71AD572D40027D514 /* Debug */,
+				99E300F81AD572D40027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E301011AD572D40027D514 /* Build configuration list for PBXLegacyTarget "doubleBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E301021AD572D40027D514 /* Debug */,
+				99E301031AD572D40027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E300F61AD572D40027D514 /* Project object */;
+}

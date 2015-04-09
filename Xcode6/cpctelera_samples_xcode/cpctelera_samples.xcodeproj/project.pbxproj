@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E300B11AD570990027D514 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 99E300B01AD570990027D514 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992E8A5E1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 992E8A381AD6C7B00076FC2F;
+			remoteInfo = setPalette;
+		};
+		992E8A601AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 992E8A0D1AD6C77A0076FC2F;
+			remoteInfo = readKeyboard;
+		};
+		992E8A621AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992E89F11AD6C7610076FC2F /* putString.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 992E89E31AD6C7410076FC2F;
+			remoteInfo = putString;
+		};
+		992E8A641AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 992E89B81AD6C70E0076FC2F;
+			remoteInfo = putSprite;
+		};
+		992E8A661AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 992E898D1AD6C6DE0076FC2F;
+			remoteInfo = putMaskedSprite;
+		};
+		992E8A681AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 992E89631AD6C6580076FC2F;
+			remoteInfo = putCharacter;
+		};
+		992E8A6A1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E300FA1AD572D40027D514;
+			remoteInfo = doubleBuffer;
+		};
+		992E8A6C1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E300E71AD572C20027D514;
+			remoteInfo = bitArrays;
+		};
+		992E8A6E1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 990F1BAA1AD6C3BC00972FB7;
+			remoteInfo = basicTiles;
+		};
+		992E8A701AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E300BC1AD571090027D514;
+			remoteInfo = arkosAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99E300AB1AD570990027D514 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = arkosAudio.xcodeproj; path = samples/arkosAudio.xcodeproj; sourceTree = SOURCE_ROOT; };
+		990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = basicTiles.xcodeproj; path = samples/basicTiles.xcodeproj; sourceTree = SOURCE_ROOT; };
+		990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bitArrays.xcodeproj; path = samples/bitArrays.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = doubleBuffer.xcodeproj; path = samples/doubleBuffer.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putCharacter.xcodeproj; path = samples/putCharacter.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putMaskedSprite.xcodeproj; path = samples/putMaskedSprite.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putSprite.xcodeproj; path = samples/putSprite.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E89F11AD6C7610076FC2F /* putString.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putString.xcodeproj; path = samples/putString.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = readKeyboard.xcodeproj; path = samples/readKeyboard.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = setPalette.xcodeproj; path = samples/setPalette.xcodeproj; sourceTree = SOURCE_ROOT; };
+		992E8A7C1AD6EF370076FC2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		99E300AD1AD570990027D514 /* cpctelera_samples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpctelera_samples; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E300B01AD570990027D514 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E300AA1AD570990027D514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9905CBF21AD641F10044F51D /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */,
+				992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */,
+				992E89F11AD6C7610076FC2F /* putString.xcodeproj */,
+				992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */,
+				992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */,
+				992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */,
+				992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */,
+				990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */,
+				990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */,
+				990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */,
+			);
+			name = samples;
+			path = ../../../cpctelera/examples;
+			sourceTree = SOURCE_ROOT;
+		};
+		990F1BA21AD6C2CF00972FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990F1BB91AD6C3D100972FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990F1BBD1AD6C50F00972FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992E89441AD6C5BE0076FC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992E89721AD6C6700076FC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992E899C1AD6C6F50076FC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992E89C71AD6C7290076FC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992E89F21AD6C7610076FC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992E8A1C1AD6C7840076FC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992E8A471AD6C7BC0076FC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E300A41AD570990027D514 = {
+			isa = PBXGroup;
+			children = (
+				992E8A7C1AD6EF370076FC2F /* README.md */,
+				9905CBF21AD641F10044F51D /* samples */,
+				99E300AF1AD570990027D514 /* cpctelera_samples */,
+				99E300AE1AD570990027D514 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99E300AE1AD570990027D514 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E300AD1AD570990027D514 /* cpctelera_samples */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E300AF1AD570990027D514 /* cpctelera_samples */ = {
+			isa = PBXGroup;
+			children = (
+				99E300B01AD570990027D514 /* main.c */,
+			);
+			path = cpctelera_samples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E300AC1AD570990027D514 /* cpctelera_samples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E300B41AD570990027D514 /* Build configuration list for PBXNativeTarget "cpctelera_samples" */;
+			buildPhases = (
+				99E300A91AD570990027D514 /* Sources */,
+				99E300AA1AD570990027D514 /* Frameworks */,
+				99E300AB1AD570990027D514 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992E8A5F1AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A611AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A631AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A651AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A671AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A691AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A6B1AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A6D1AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A6F1AD6C8140076FC2F /* PBXTargetDependency */,
+				992E8A711AD6C8140076FC2F /* PBXTargetDependency */,
+			);
+			name = cpctelera_samples;
+			productName = cpctelera_samples;
+			productReference = 99E300AD1AD570990027D514 /* cpctelera_samples */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E300A51AD570990027D514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = cpctelera;
+				TargetAttributes = {
+					99E300AC1AD570990027D514 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 99E300A81AD570990027D514 /* Build configuration list for PBXProject "cpctelera_samples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99E300A41AD570990027D514;
+			productRefGroup = 99E300AE1AD570990027D514 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 990F1BA21AD6C2CF00972FB7 /* Products */;
+					ProjectRef = 990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */;
+				},
+				{
+					ProductGroup = 990F1BB91AD6C3D100972FB7 /* Products */;
+					ProjectRef = 990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */;
+				},
+				{
+					ProductGroup = 990F1BBD1AD6C50F00972FB7 /* Products */;
+					ProjectRef = 990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */;
+				},
+				{
+					ProductGroup = 992E89441AD6C5BE0076FC2F /* Products */;
+					ProjectRef = 992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */;
+				},
+				{
+					ProductGroup = 992E89721AD6C6700076FC2F /* Products */;
+					ProjectRef = 992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */;
+				},
+				{
+					ProductGroup = 992E899C1AD6C6F50076FC2F /* Products */;
+					ProjectRef = 992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */;
+				},
+				{
+					ProductGroup = 992E89C71AD6C7290076FC2F /* Products */;
+					ProjectRef = 992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */;
+				},
+				{
+					ProductGroup = 992E89F21AD6C7610076FC2F /* Products */;
+					ProjectRef = 992E89F11AD6C7610076FC2F /* putString.xcodeproj */;
+				},
+				{
+					ProductGroup = 992E8A1C1AD6C7840076FC2F /* Products */;
+					ProjectRef = 992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */;
+				},
+				{
+					ProductGroup = 992E8A471AD6C7BC0076FC2F /* Products */;
+					ProjectRef = 992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				99E300AC1AD570990027D514 /* cpctelera_samples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E300A91AD570990027D514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E300B11AD570990027D514 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		992E8A5F1AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = setPalette;
+			targetProxy = 992E8A5E1AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A611AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = readKeyboard;
+			targetProxy = 992E8A601AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A631AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = putString;
+			targetProxy = 992E8A621AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A651AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = putSprite;
+			targetProxy = 992E8A641AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A671AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = putMaskedSprite;
+			targetProxy = 992E8A661AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A691AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = putCharacter;
+			targetProxy = 992E8A681AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A6B1AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = doubleBuffer;
+			targetProxy = 992E8A6A1AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A6D1AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = bitArrays;
+			targetProxy = 992E8A6C1AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A6F1AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = basicTiles;
+			targetProxy = 992E8A6E1AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+		992E8A711AD6C8140076FC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = arkosAudio;
+			targetProxy = 992E8A701AD6C8140076FC2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99E300B21AD570990027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99E300B31AD570990027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99E300B51AD570990027D514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99E300B61AD570990027D514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E300A81AD570990027D514 /* Build configuration list for PBXProject "cpctelera_samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E300B21AD570990027D514 /* Debug */,
+				99E300B31AD570990027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E300B41AD570990027D514 /* Build configuration list for PBXNativeTarget "cpctelera_samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E300B51AD570990027D514 /* Debug */,
+				99E300B61AD570990027D514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E300A51AD570990027D514 /* Project object */;
+}

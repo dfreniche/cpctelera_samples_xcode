@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		990F1BAB1AD6C3BC00972FB7 /* basicTiles.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = basicTiles.cdt; path = ../../../../cpctelera/examples/basicTiles/basicTiles.cdt; sourceTree = "<group>"; };
+		990F1BAC1AD6C3BC00972FB7 /* basicTiles.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = basicTiles.dsk; path = ../../../../cpctelera/examples/basicTiles/basicTiles.dsk; sourceTree = "<group>"; };
+		990F1BAD1AD6C3BC00972FB7 /* cfg */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cfg; path = ../../../../cpctelera/examples/basicTiles/cfg; sourceTree = "<group>"; };
+		990F1BAE1AD6C3BC00972FB7 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../cpctelera/examples/basicTiles/Makefile; sourceTree = "<group>"; };
+		990F1BAF1AD6C3BC00972FB7 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = obj; path = ../../../../cpctelera/examples/basicTiles/obj; sourceTree = "<group>"; };
+		990F1BB01AD6C3BC00972FB7 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../../cpctelera/examples/basicTiles/src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		990F1BA51AD6C3BC00972FB7 = {
+			isa = PBXGroup;
+			children = (
+				990F1BAB1AD6C3BC00972FB7 /* basicTiles.cdt */,
+				990F1BAC1AD6C3BC00972FB7 /* basicTiles.dsk */,
+				990F1BAD1AD6C3BC00972FB7 /* cfg */,
+				990F1BAE1AD6C3BC00972FB7 /* Makefile */,
+				990F1BAF1AD6C3BC00972FB7 /* obj */,
+				990F1BB01AD6C3BC00972FB7 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		990F1BAA1AD6C3BC00972FB7 /* basicTiles */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 990F1BB11AD6C3BC00972FB7 /* Build configuration list for PBXLegacyTarget "basicTiles" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = /Users/dfreniche/BTSync/Programming/Amstrad/cpctelera/examples/basicTiles;
+			dependencies = (
+			);
+			name = basicTiles;
+			passBuildSettingsInEnvironment = 1;
+			productName = basicTiles;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		990F1BA61AD6C3BC00972FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 990F1BA91AD6C3BC00972FB7 /* Build configuration list for PBXProject "basicTiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 990F1BA51AD6C3BC00972FB7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				990F1BAA1AD6C3BC00972FB7 /* basicTiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		990F1BA71AD6C3BC00972FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		990F1BA81AD6C3BC00972FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		990F1BB21AD6C3BC00972FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = basicTiles;
+			};
+			name = Debug;
+		};
+		990F1BB31AD6C3BC00972FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = basicTiles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		990F1BA91AD6C3BC00972FB7 /* Build configuration list for PBXProject "basicTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990F1BA71AD6C3BC00972FB7 /* Debug */,
+				990F1BA81AD6C3BC00972FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990F1BB11AD6C3BC00972FB7 /* Build configuration list for PBXLegacyTarget "basicTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990F1BB21AD6C3BC00972FB7 /* Debug */,
+				990F1BB31AD6C3BC00972FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 990F1BA61AD6C3BC00972FB7 /* Project object */;
+}

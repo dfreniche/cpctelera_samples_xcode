@@ -1,0 +1,194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		992E89F61AD6C76B0076FC2F /* build_config.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_config.mk; sourceTree = "<group>"; };
+		992E89F81AD6C76B0076FC2F /* main.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = main.asm; sourceTree = "<group>"; };
+		992E89F91AD6C76B0076FC2F /* main.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.lst; sourceTree = "<group>"; };
+		992E89FA1AD6C76B0076FC2F /* main.rel */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rel; sourceTree = "<group>"; };
+		992E89FB1AD6C76B0076FC2F /* main.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rst; sourceTree = "<group>"; };
+		992E89FC1AD6C76B0076FC2F /* main.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.sym; sourceTree = "<group>"; };
+		992E89FD1AD6C76B0076FC2F /* putString.bin.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = putString.bin.bin; sourceTree = "<group>"; };
+		992E89FE1AD6C76B0076FC2F /* putString.bin.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = putString.bin.log; sourceTree = "<group>"; };
+		992E89FF1AD6C76B0076FC2F /* putString.ihx */ = {isa = PBXFileReference; lastKnownFileType = text; path = putString.ihx; sourceTree = "<group>"; };
+		992E8A001AD6C76B0076FC2F /* putString.lk */ = {isa = PBXFileReference; lastKnownFileType = text; path = putString.lk; sourceTree = "<group>"; };
+		992E8A011AD6C76B0076FC2F /* putString.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = putString.map; sourceTree = "<group>"; };
+		992E8A021AD6C76B0076FC2F /* putString.noi */ = {isa = PBXFileReference; lastKnownFileType = text; path = putString.noi; sourceTree = "<group>"; };
+		992E8A041AD6C76B0076FC2F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		992E8A051AD6C76B0076FC2F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../cpctelera/examples/putString/Makefile; sourceTree = "<group>"; };
+		992E8A061AD6C76B0076FC2F /* putString.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = putString.cdt; path = ../../../../cpctelera/examples/putString/putString.cdt; sourceTree = "<group>"; };
+		992E8A071AD6C76B0076FC2F /* putString.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = putString.dsk; path = ../../../../cpctelera/examples/putString/putString.dsk; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		992E89DE1AD6C7410076FC2F = {
+			isa = PBXGroup;
+			children = (
+				992E89F51AD6C76B0076FC2F /* cfg */,
+				992E89F71AD6C76B0076FC2F /* obj */,
+				992E8A031AD6C76B0076FC2F /* src */,
+				992E8A051AD6C76B0076FC2F /* Makefile */,
+				992E8A061AD6C76B0076FC2F /* putString.cdt */,
+				992E8A071AD6C76B0076FC2F /* putString.dsk */,
+			);
+			sourceTree = "<group>";
+		};
+		992E89F51AD6C76B0076FC2F /* cfg */ = {
+			isa = PBXGroup;
+			children = (
+				992E89F61AD6C76B0076FC2F /* build_config.mk */,
+			);
+			name = cfg;
+			path = ../../../../cpctelera/examples/putString/cfg;
+			sourceTree = "<group>";
+		};
+		992E89F71AD6C76B0076FC2F /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				992E89F81AD6C76B0076FC2F /* main.asm */,
+				992E89F91AD6C76B0076FC2F /* main.lst */,
+				992E89FA1AD6C76B0076FC2F /* main.rel */,
+				992E89FB1AD6C76B0076FC2F /* main.rst */,
+				992E89FC1AD6C76B0076FC2F /* main.sym */,
+				992E89FD1AD6C76B0076FC2F /* putString.bin.bin */,
+				992E89FE1AD6C76B0076FC2F /* putString.bin.log */,
+				992E89FF1AD6C76B0076FC2F /* putString.ihx */,
+				992E8A001AD6C76B0076FC2F /* putString.lk */,
+				992E8A011AD6C76B0076FC2F /* putString.map */,
+				992E8A021AD6C76B0076FC2F /* putString.noi */,
+			);
+			name = obj;
+			path = ../../../../cpctelera/examples/putString/obj;
+			sourceTree = "<group>";
+		};
+		992E8A031AD6C76B0076FC2F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				992E8A041AD6C76B0076FC2F /* main.c */,
+			);
+			name = src;
+			path = ../../../../cpctelera/examples/putString/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		992E89E31AD6C7410076FC2F /* putString */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 992E89EA1AD6C7410076FC2F /* Build configuration list for PBXLegacyTarget "putString" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = /Users/dfreniche/BTSync/Programming/Amstrad/cpctelera/examples/putString;
+			dependencies = (
+			);
+			name = putString;
+			passBuildSettingsInEnvironment = 1;
+			productName = putString;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		992E89DF1AD6C7410076FC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 992E89E21AD6C7410076FC2F /* Build configuration list for PBXProject "putString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 992E89DE1AD6C7410076FC2F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992E89E31AD6C7410076FC2F /* putString */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		992E89E01AD6C7410076FC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		992E89E11AD6C7410076FC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		992E89EB1AD6C7410076FC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = putString;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		992E89EC1AD6C7410076FC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = putString;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992E89E21AD6C7410076FC2F /* Build configuration list for PBXProject "putString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992E89E01AD6C7410076FC2F /* Debug */,
+				992E89E11AD6C7410076FC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992E89EA1AD6C7410076FC2F /* Build configuration list for PBXLegacyTarget "putString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992E89EB1AD6C7410076FC2F /* Debug */,
+				992E89EC1AD6C7410076FC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992E89DF1AD6C7410076FC2F /* Project object */;
+}

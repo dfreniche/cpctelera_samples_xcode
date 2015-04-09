@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		992E89CB1AD6C7320076FC2F /* build_config.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_config.mk; sourceTree = "<group>"; };
+		992E89CD1AD6C7320076FC2F /* main.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = main.asm; sourceTree = "<group>"; };
+		992E89CE1AD6C7320076FC2F /* main.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.lst; sourceTree = "<group>"; };
+		992E89CF1AD6C7320076FC2F /* main.rel */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rel; sourceTree = "<group>"; };
+		992E89D01AD6C7320076FC2F /* main.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.rst; sourceTree = "<group>"; };
+		992E89D11AD6C7320076FC2F /* main.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.sym; sourceTree = "<group>"; };
+		992E89D21AD6C7320076FC2F /* putSprite.bin.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = putSprite.bin.bin; sourceTree = "<group>"; };
+		992E89D31AD6C7320076FC2F /* putSprite.bin.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = putSprite.bin.log; sourceTree = "<group>"; };
+		992E89D41AD6C7320076FC2F /* putSprite.ihx */ = {isa = PBXFileReference; lastKnownFileType = text; path = putSprite.ihx; sourceTree = "<group>"; };
+		992E89D51AD6C7320076FC2F /* putSprite.lk */ = {isa = PBXFileReference; lastKnownFileType = text; path = putSprite.lk; sourceTree = "<group>"; };
+		992E89D61AD6C7320076FC2F /* putSprite.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = putSprite.map; sourceTree = "<group>"; };
+		992E89D71AD6C7320076FC2F /* putSprite.noi */ = {isa = PBXFileReference; lastKnownFileType = text; path = putSprite.noi; sourceTree = "<group>"; };
+		992E89D91AD6C7320076FC2F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		992E89DA1AD6C7320076FC2F /* newton_sprite.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = newton_sprite.def; sourceTree = "<group>"; };
+		992E89DB1AD6C7320076FC2F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../../cpctelera/examples/putSprite/Makefile; sourceTree = "<group>"; };
+		992E89DC1AD6C7320076FC2F /* putSprite.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = putSprite.cdt; path = ../../../../cpctelera/examples/putSprite/putSprite.cdt; sourceTree = "<group>"; };
+		992E89DD1AD6C7320076FC2F /* putSprite.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = putSprite.dsk; path = ../../../../cpctelera/examples/putSprite/putSprite.dsk; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		992E89B31AD6C70E0076FC2F = {
+			isa = PBXGroup;
+			children = (
+				992E89CA1AD6C7320076FC2F /* cfg */,
+				992E89CC1AD6C7320076FC2F /* obj */,
+				992E89D81AD6C7320076FC2F /* src */,
+				992E89DB1AD6C7320076FC2F /* Makefile */,
+				992E89DC1AD6C7320076FC2F /* putSprite.cdt */,
+				992E89DD1AD6C7320076FC2F /* putSprite.dsk */,
+			);
+			sourceTree = "<group>";
+		};
+		992E89CA1AD6C7320076FC2F /* cfg */ = {
+			isa = PBXGroup;
+			children = (
+				992E89CB1AD6C7320076FC2F /* build_config.mk */,
+			);
+			name = cfg;
+			path = ../../../../cpctelera/examples/putSprite/cfg;
+			sourceTree = "<group>";
+		};
+		992E89CC1AD6C7320076FC2F /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				992E89CD1AD6C7320076FC2F /* main.asm */,
+				992E89CE1AD6C7320076FC2F /* main.lst */,
+				992E89CF1AD6C7320076FC2F /* main.rel */,
+				992E89D01AD6C7320076FC2F /* main.rst */,
+				992E89D11AD6C7320076FC2F /* main.sym */,
+				992E89D21AD6C7320076FC2F /* putSprite.bin.bin */,
+				992E89D31AD6C7320076FC2F /* putSprite.bin.log */,
+				992E89D41AD6C7320076FC2F /* putSprite.ihx */,
+				992E89D51AD6C7320076FC2F /* putSprite.lk */,
+				992E89D61AD6C7320076FC2F /* putSprite.map */,
+				992E89D71AD6C7320076FC2F /* putSprite.noi */,
+			);
+			name = obj;
+			path = ../../../../cpctelera/examples/putSprite/obj;
+			sourceTree = "<group>";
+		};
+		992E89D81AD6C7320076FC2F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				992E89D91AD6C7320076FC2F /* main.c */,
+				992E89DA1AD6C7320076FC2F /* newton_sprite.def */,
+			);
+			name = src;
+			path = ../../../../cpctelera/examples/putSprite/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		992E89B81AD6C70E0076FC2F /* putSprite */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 992E89BF1AD6C70E0076FC2F /* Build configuration list for PBXLegacyTarget "putSprite" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = /Users/dfreniche/BTSync/Programming/Amstrad/cpctelera/examples/putSprite;
+			dependencies = (
+			);
+			name = putSprite;
+			passBuildSettingsInEnvironment = 1;
+			productName = putSprite;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		992E89B41AD6C70E0076FC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+			};
+			buildConfigurationList = 992E89B71AD6C70E0076FC2F /* Build configuration list for PBXProject "putSprite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 992E89B31AD6C70E0076FC2F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992E89B81AD6C70E0076FC2F /* putSprite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		992E89B51AD6C70E0076FC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		992E89B61AD6C70E0076FC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		992E89C01AD6C70E0076FC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = putSprite;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		992E89C11AD6C70E0076FC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = putSprite;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992E89B71AD6C70E0076FC2F /* Build configuration list for PBXProject "putSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992E89B51AD6C70E0076FC2F /* Debug */,
+				992E89B61AD6C70E0076FC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992E89BF1AD6C70E0076FC2F /* Build configuration list for PBXLegacyTarget "putSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992E89C01AD6C70E0076FC2F /* Debug */,
+				992E89C11AD6C70E0076FC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992E89B41AD6C70E0076FC2F /* Project object */;
+}

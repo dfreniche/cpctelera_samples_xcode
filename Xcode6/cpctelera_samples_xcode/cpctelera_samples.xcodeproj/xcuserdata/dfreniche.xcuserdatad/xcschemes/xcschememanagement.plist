@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>cpctelera-lib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>cpctelera_samples.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>9990A2291ADBBD54001C5379</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9990A22D1ADBBD96001C5379</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>99E300AC1AD570990027D514</key>
 		<dict>
 			<key>primary</key>

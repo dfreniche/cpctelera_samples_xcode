@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "99E300AC1AD570990027D514"
-               BuildableName = "cpctelera_samples"
-               BlueprintName = "cpctelera_samples"
+               BlueprintIdentifier = "9990A22D1ADBBD96001C5379"
+               BuildableName = "cpctelera-lib"
+               BlueprintName = "cpctelera-lib"
                ReferencedContainer = "container:cpctelera_samples.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99E300AC1AD570990027D514"
-            BuildableName = "cpctelera_samples"
-            BlueprintName = "cpctelera_samples"
-            ReferencedContainer = "container:cpctelera_samples.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -48,16 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99E300AC1AD570990027D514"
-            BuildableName = "cpctelera_samples"
-            BlueprintName = "cpctelera_samples"
+            BlueprintIdentifier = "9990A22D1ADBBD96001C5379"
+            BuildableName = "cpctelera-lib"
+            BlueprintName = "cpctelera-lib"
             ReferencedContainer = "container:cpctelera_samples.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -67,16 +57,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99E300AC1AD570990027D514"
-            BuildableName = "cpctelera_samples"
-            BlueprintName = "cpctelera_samples"
+            BlueprintIdentifier = "9990A22D1ADBBD96001C5379"
+            BuildableName = "cpctelera-lib"
+            BlueprintName = "cpctelera-lib"
             ReferencedContainer = "container:cpctelera_samples.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

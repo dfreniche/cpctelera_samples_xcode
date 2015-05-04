@@ -6,81 +6,53 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		9990A22D1ADBBD96001C5379 /* cpctelera-lib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9990A22E1ADBBD96001C5379 /* Build configuration list for PBXAggregateTarget "cpctelera-lib" */;
+			buildPhases = (
+				9990A2311ADBBD9B001C5379 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "cpctelera-lib";
+			productName = "cpctelera-lib";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		992E8AA71AD6F3760076FC2F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 992E8AA61AD6F3760076FC2F /* README.md */; };
 		99E300B11AD570990027D514 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 99E300B01AD570990027D514 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		992E8A5E1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+		9990A2321ADBBDEC001C5379 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */;
+			containerPortal = 99E300A51AD570990027D514 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 992E8A381AD6C7B00076FC2F;
-			remoteInfo = setPalette;
+			remoteGlobalIDString = 9990A22D1ADBBD96001C5379;
+			remoteInfo = "cpctelera-lib";
 		};
-		992E8A601AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+		99EBC3151AF7DBB7004E8EAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */;
+			containerPortal = 99EBC2FE1AF7DB8E004E8EAF /* easy.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 992E8A0D1AD6C77A0076FC2F;
-			remoteInfo = readKeyboard;
+			remoteGlobalIDString = 99EBC2F11AF7DB8D004E8EAF;
+			remoteInfo = easy;
 		};
-		992E8A621AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+		99EBC3171AF7DBBB004E8EAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 992E89F11AD6C7610076FC2F /* putString.xcodeproj */;
+			containerPortal = 99EBC3111AF7DB9A004E8EAF /* medium.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 992E89E31AD6C7410076FC2F;
-			remoteInfo = putString;
+			remoteGlobalIDString = 99EBC3071AF7DB9A004E8EAF;
+			remoteInfo = medium;
 		};
-		992E8A641AD6C8140076FC2F /* PBXContainerItemProxy */ = {
+		99EBC3191AF7DBBF004E8EAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */;
+			containerPortal = 99EBC2E81AF7DB69004E8EAF /* advanced.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 992E89B81AD6C70E0076FC2F;
-			remoteInfo = putSprite;
-		};
-		992E8A661AD6C8140076FC2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 992E898D1AD6C6DE0076FC2F;
-			remoteInfo = putMaskedSprite;
-		};
-		992E8A681AD6C8140076FC2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 992E89631AD6C6580076FC2F;
-			remoteInfo = putCharacter;
-		};
-		992E8A6A1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 99E300FA1AD572D40027D514;
-			remoteInfo = doubleBuffer;
-		};
-		992E8A6C1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 99E300E71AD572C20027D514;
-			remoteInfo = bitArrays;
-		};
-		992E8A6E1AD6C8140076FC2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 990F1BAA1AD6C3BC00972FB7;
-			remoteInfo = basicTiles;
-		};
-		992E8A701AD6C8140076FC2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 99E300BC1AD571090027D514;
-			remoteInfo = arkosAudio;
+			remoteGlobalIDString = 99EBC2E01AF7DB68004E8EAF;
+			remoteInfo = advanced;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,19 +69,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = arkosAudio.xcodeproj; path = samples/arkosAudio.xcodeproj; sourceTree = SOURCE_ROOT; };
-		990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = basicTiles.xcodeproj; path = samples/basicTiles.xcodeproj; sourceTree = SOURCE_ROOT; };
-		990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bitArrays.xcodeproj; path = samples/bitArrays.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = doubleBuffer.xcodeproj; path = samples/doubleBuffer.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putCharacter.xcodeproj; path = samples/putCharacter.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putMaskedSprite.xcodeproj; path = samples/putMaskedSprite.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putSprite.xcodeproj; path = samples/putSprite.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E89F11AD6C7610076FC2F /* putString.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = putString.xcodeproj; path = samples/putString.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = readKeyboard.xcodeproj; path = samples/readKeyboard.xcodeproj; sourceTree = SOURCE_ROOT; };
-		992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = setPalette.xcodeproj; path = samples/setPalette.xcodeproj; sourceTree = SOURCE_ROOT; };
 		992E8AA61AD6F3760076FC2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		99E300AD1AD570990027D514 /* cpctelera_samples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpctelera_samples; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E300B01AD570990027D514 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		99EBC2E81AF7DB69004E8EAF /* advanced.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = advanced.xcodeproj; path = advanced/advanced.xcodeproj; sourceTree = "<group>"; };
+		99EBC2FE1AF7DB8E004E8EAF /* easy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = easy.xcodeproj; path = easy/easy.xcodeproj; sourceTree = "<group>"; };
+		99EBC3111AF7DB9A004E8EAF /* medium.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = medium.xcodeproj; path = medium/medium.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,90 +91,13 @@
 		9905CBF21AD641F10044F51D /* samples */ = {
 			isa = PBXGroup;
 			children = (
-				992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */,
-				992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */,
-				992E89F11AD6C7610076FC2F /* putString.xcodeproj */,
-				992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */,
-				992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */,
-				992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */,
-				992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */,
-				990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */,
-				990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */,
-				990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */,
+				99EBC2FE1AF7DB8E004E8EAF /* easy.xcodeproj */,
+				99EBC3111AF7DB9A004E8EAF /* medium.xcodeproj */,
+				99EBC2E81AF7DB69004E8EAF /* advanced.xcodeproj */,
 			);
 			name = samples;
 			path = ../../../cpctelera/examples;
 			sourceTree = SOURCE_ROOT;
-		};
-		990F1BA21AD6C2CF00972FB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		990F1BB91AD6C3D100972FB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		990F1BBD1AD6C50F00972FB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992E89441AD6C5BE0076FC2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992E89721AD6C6700076FC2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992E899C1AD6C6F50076FC2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992E89C71AD6C7290076FC2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992E89F21AD6C7610076FC2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992E8A1C1AD6C7840076FC2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992E8A471AD6C7BC0076FC2F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
 		};
 		99E300A41AD570990027D514 = {
 			isa = PBXGroup;
@@ -237,6 +125,27 @@
 			path = cpctelera_samples;
 			sourceTree = "<group>";
 		};
+		99EBC2E91AF7DB69004E8EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EBC2FF1AF7DB8E004E8EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EBC3121AF7DB9A004E8EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,16 +160,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				992E8A5F1AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A611AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A631AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A651AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A671AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A691AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A6B1AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A6D1AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A6F1AD6C8140076FC2F /* PBXTargetDependency */,
-				992E8A711AD6C8140076FC2F /* PBXTargetDependency */,
+				99EBC31A1AF7DBBF004E8EAF /* PBXTargetDependency */,
+				99EBC3181AF7DBBB004E8EAF /* PBXTargetDependency */,
+				99EBC3161AF7DBB7004E8EAF /* PBXTargetDependency */,
+				9990A2331ADBBDEC001C5379 /* PBXTargetDependency */,
 			);
 			name = cpctelera_samples;
 			productName = cpctelera_samples;
@@ -276,6 +179,9 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = cpctelera;
 				TargetAttributes = {
+					9990A22D1ADBBD96001C5379 = {
+						CreatedOnToolsVersion = 6.3;
+					};
 					99E300AC1AD570990027D514 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -293,52 +199,41 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 990F1BA21AD6C2CF00972FB7 /* Products */;
-					ProjectRef = 990F1BA11AD6C2CF00972FB7 /* arkosAudio.xcodeproj */;
+					ProductGroup = 99EBC2E91AF7DB69004E8EAF /* Products */;
+					ProjectRef = 99EBC2E81AF7DB69004E8EAF /* advanced.xcodeproj */;
 				},
 				{
-					ProductGroup = 990F1BB91AD6C3D100972FB7 /* Products */;
-					ProjectRef = 990F1BB81AD6C3D100972FB7 /* basicTiles.xcodeproj */;
+					ProductGroup = 99EBC2FF1AF7DB8E004E8EAF /* Products */;
+					ProjectRef = 99EBC2FE1AF7DB8E004E8EAF /* easy.xcodeproj */;
 				},
 				{
-					ProductGroup = 990F1BBD1AD6C50F00972FB7 /* Products */;
-					ProjectRef = 990F1BBC1AD6C50F00972FB7 /* bitArrays.xcodeproj */;
-				},
-				{
-					ProductGroup = 992E89441AD6C5BE0076FC2F /* Products */;
-					ProjectRef = 992E89431AD6C5BE0076FC2F /* doubleBuffer.xcodeproj */;
-				},
-				{
-					ProductGroup = 992E89721AD6C6700076FC2F /* Products */;
-					ProjectRef = 992E89711AD6C6700076FC2F /* putCharacter.xcodeproj */;
-				},
-				{
-					ProductGroup = 992E899C1AD6C6F50076FC2F /* Products */;
-					ProjectRef = 992E899B1AD6C6F50076FC2F /* putMaskedSprite.xcodeproj */;
-				},
-				{
-					ProductGroup = 992E89C71AD6C7290076FC2F /* Products */;
-					ProjectRef = 992E89C61AD6C7290076FC2F /* putSprite.xcodeproj */;
-				},
-				{
-					ProductGroup = 992E89F21AD6C7610076FC2F /* Products */;
-					ProjectRef = 992E89F11AD6C7610076FC2F /* putString.xcodeproj */;
-				},
-				{
-					ProductGroup = 992E8A1C1AD6C7840076FC2F /* Products */;
-					ProjectRef = 992E8A1B1AD6C7840076FC2F /* readKeyboard.xcodeproj */;
-				},
-				{
-					ProductGroup = 992E8A471AD6C7BC0076FC2F /* Products */;
-					ProjectRef = 992E8A461AD6C7BC0076FC2F /* setPalette.xcodeproj */;
+					ProductGroup = 99EBC3121AF7DB9A004E8EAF /* Products */;
+					ProjectRef = 99EBC3111AF7DB9A004E8EAF /* medium.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
 				99E300AC1AD570990027D514 /* cpctelera_samples */,
+				9990A22D1ADBBD96001C5379 /* cpctelera-lib */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9990A2311ADBBD9B001C5379 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd ../../../cpctelera\n./setup.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		99E300A91AD570990027D514 /* Sources */ = {
@@ -353,59 +248,43 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		992E8A5F1AD6C8140076FC2F /* PBXTargetDependency */ = {
+		9990A2331ADBBDEC001C5379 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = setPalette;
-			targetProxy = 992E8A5E1AD6C8140076FC2F /* PBXContainerItemProxy */;
+			target = 9990A22D1ADBBD96001C5379 /* cpctelera-lib */;
+			targetProxy = 9990A2321ADBBDEC001C5379 /* PBXContainerItemProxy */;
 		};
-		992E8A611AD6C8140076FC2F /* PBXTargetDependency */ = {
+		99EBC3161AF7DBB7004E8EAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = readKeyboard;
-			targetProxy = 992E8A601AD6C8140076FC2F /* PBXContainerItemProxy */;
+			name = easy;
+			targetProxy = 99EBC3151AF7DBB7004E8EAF /* PBXContainerItemProxy */;
 		};
-		992E8A631AD6C8140076FC2F /* PBXTargetDependency */ = {
+		99EBC3181AF7DBBB004E8EAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = putString;
-			targetProxy = 992E8A621AD6C8140076FC2F /* PBXContainerItemProxy */;
+			name = medium;
+			targetProxy = 99EBC3171AF7DBBB004E8EAF /* PBXContainerItemProxy */;
 		};
-		992E8A651AD6C8140076FC2F /* PBXTargetDependency */ = {
+		99EBC31A1AF7DBBF004E8EAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = putSprite;
-			targetProxy = 992E8A641AD6C8140076FC2F /* PBXContainerItemProxy */;
-		};
-		992E8A671AD6C8140076FC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = putMaskedSprite;
-			targetProxy = 992E8A661AD6C8140076FC2F /* PBXContainerItemProxy */;
-		};
-		992E8A691AD6C8140076FC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = putCharacter;
-			targetProxy = 992E8A681AD6C8140076FC2F /* PBXContainerItemProxy */;
-		};
-		992E8A6B1AD6C8140076FC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = doubleBuffer;
-			targetProxy = 992E8A6A1AD6C8140076FC2F /* PBXContainerItemProxy */;
-		};
-		992E8A6D1AD6C8140076FC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = bitArrays;
-			targetProxy = 992E8A6C1AD6C8140076FC2F /* PBXContainerItemProxy */;
-		};
-		992E8A6F1AD6C8140076FC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = basicTiles;
-			targetProxy = 992E8A6E1AD6C8140076FC2F /* PBXContainerItemProxy */;
-		};
-		992E8A711AD6C8140076FC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = arkosAudio;
-			targetProxy = 992E8A701AD6C8140076FC2F /* PBXContainerItemProxy */;
+			name = advanced;
+			targetProxy = 99EBC3191AF7DBBF004E8EAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9990A22F1ADBBD96001C5379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9990A2301ADBBD96001C5379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		99E300B21AD570990027D514 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -497,6 +376,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9990A22E1ADBBD96001C5379 /* Build configuration list for PBXAggregateTarget "cpctelera-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9990A22F1ADBBD96001C5379 /* Debug */,
+				9990A2301ADBBD96001C5379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		99E300A81AD570990027D514 /* Build configuration list for PBXProject "cpctelera_samples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
